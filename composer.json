@@ -1,0 +1,27 @@
+{
+    "name": "sohel1999/php-packeage",
+    "description": "php package development basic setup",
+    "authors": [
+        {
+            "name": "Sohel Mia",
+            "email": "sohelcse1999@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Sohel\\Skeleton\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Sohel\\Skeleton\\":"tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "9",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    }
+}
